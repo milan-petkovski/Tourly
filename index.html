@@ -68,124 +68,88 @@
         <img src="images/logo-blue.svg" alt="Tourly logo">
       </a>
 
-            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </div>
-
-          <ul class="navbar-list">
-
-            <li>
-              <a href="#home" class="navbar-link" data-nav-link>home</a>
-            </li>
-
-            <li>
-              <a href="#" class="navbar-link" data-nav-link>about us</a>
-            </li>
-
-            <li>
-              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
-            </li>
-
-            <li>
-              <a href="#package" class="navbar-link" data-nav-link>packages</a>
-            </li>
-
-            <li>
-              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
-            </li>
-
-            <li>
-              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
-            </li>
-
-          </ul>
-
-        </nav>
-
-        <button class="btn btn-primary">Book Now</button>
-
-      </div>
+      <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+      </button>
     </div>
 
-  </header>
+    <ul class="navbar-list">
+      <li>
+        <a href="#home" class="navbar-link" data-nav-link>home</a>
+      </li>
 
+      <li>
+        <a href="#" class="navbar-link" data-nav-link>about us</a>
+      </li>
 
+      <li>
+        <a href="#destination" class="navbar-link" data-nav-link>destination</a>
+      </li>
 
+      <li>
+        <a href="#package" class="navbar-link" data-nav-link>packages</a>
+      </li>
 
+      <li>
+        <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
+      </li>
 
-  <main>
-    <article>
+      <li>
+        <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
+      </li>
+    </ul>
+    </nav>
 
-      <!-- 
-        - #HERO
-      -->
+    <a href="#book"><button class="btn btn-primary">Book Now</button></a>
+  </div>
+  </div>
+</header>
 
-      <section class="hero" id="home">
-        <div class="container">
+<main>
+<article>
 
-          <h2 class="h1 hero-title">Journey to explore world</h2>
+<section class="hero" id="home">
+  <div class="container">
+    <h2 class="h1 hero-title">Journey to explore world</h2>
+    <p class="hero-text">Tourly is a travel and tourism website designed to inspire exploration and simplify trip planning. It offers a modern interface, destination highlights, and easy booking options for unforgettable travel experiences.
+    </p>
+    
+    <div class="btn-group">
+      <a href="#package"><button class="btn btn-primary">Learn more</button></a>
+      <a href="#book"><button class="btn btn-secondary">Book now</button></a>
+    </div>
+  </div>
+</section>
 
-          <p class="hero-text">
-            Ac mi duis mollis. Sapiente? Scelerisque quae, penatibus? Suscipit class corporis nostra rem quos
-            voluptatibus habitant?
-            Fames, vivamus minim nemo enim, gravida lobortis quasi, eum.
-          </p>
+<section class="tour-search" id="book">
+  <div class="container">
+    <h1>Book Now</h1>
+    <form action="" class="tour-search-form">
+      <!--Destination-->
+      <div class="input-wrapper">
+        <label for="destination" class="input-label">Destination*</label>
+        <input type="text" name="destination" id="destination" required placeholder="Enter Destination" class="input-field">
+      </div>
+      <!--  People   -->
+      <div class="input-wrapper">
+        <label for="people" class="input-label">Number of people*</label>
+        <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+      </div>
+      <!-- Check in  -->
+      <div class="input-wrapper">
+        <label for="checkin" class="input-label">Checkin Date*</label>
+        <input type="date" name="checkin" id="checkin" required class="input-field">
+      </div>
+      <!-- Check out -->
+      <div class="input-wrapper">
+        <label for="checkout" class="input-label">Checkout Date*</label>
+        <input type="date" name="checkout" id="checkout" required class="input-field">
+      </div>
 
-          <div class="btn-group">
-            <button class="btn btn-primary">Learn more</button>
-
-            <button class="btn btn-secondary">Book now</button>
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #TOUR SEARCH
-      -->
-
-      <section class="tour-search">
-        <div class="container">
-
-          <form action="" class="tour-search-form">
-
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Search Destination*</label>
-
-              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Pax Number*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Checkin Date**</label>
-
-              <input type="date" name="checkin" id="checkin" required class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
-
-              <input type="date" name="checkout" id="checkout" required class="input-field">
-            </div>
-
-            <button type="submit" class="btn btn-secondary">Inquire now</button>
-
-          </form>
-
-        </div>
-      </section>
+      <button type="submit" class="btn btn-secondary">Book now</button>
+    </form>
+  </div>
+</section>
 
 
 

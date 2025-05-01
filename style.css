@@ -386,9 +386,14 @@ body { background: var(--white); }
   min-height: 600px;
   text-align: center;
   padding-top: 125px;
+  height: 100vh;
 }
-
-.hero-title { margin-bottom: 20px; }
+.hero .container{
+  min-width: 900px;
+}
+.hero-title {
+  margin-bottom: 20px; 
+}
 
 .hero-text {
   color: var(--white);
@@ -422,6 +427,12 @@ body { background: var(--white); }
   font-size: var(--fs-4);
   margin-left: 20px;
   margin-bottom: 10px;
+}
+.tour-search h1{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .tour-search-form .input-field {
