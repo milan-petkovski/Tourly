@@ -5,6 +5,7 @@
 <div align="center">
   <img src="https://i.postimg.cc/CKZ0rcgT/tourly.jpg" width="500px" alt="Tourly Screenshot">
 </div>  
+<br>
 
 <p align="center">
   <strong>Tourly</strong> is a sleek, elegant and user-centered travel agency website designed to help users discover and book the journey of their dreams.
