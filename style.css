@@ -388,9 +388,6 @@ body { background: var(--white); }
   padding-top: 125px;
   height: 100vh;
 }
-.hero .container{
-  min-width: 900px;
-}
 .hero-title {
   margin-bottom: 20px; 
 }
