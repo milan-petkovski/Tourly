@@ -44,3 +44,21 @@ window.addEventListener("scroll", function () {
   }
 
 });
+
+
+
+function showPopup() {
+  document.getElementById('popup').style.display = 'block';
+  document.body.classList.add('noscroll');
+}
+
+function closePopup() {
+  document.getElementById('popup').style.display = 'none';
+  document.body.classList.remove('noscroll');
+}
+
+const addEventOnElements = function (elements, eventType, callback) {
+  for (let i = 0, len = elements.length; i < len; i++) {
+    elements[i].addEventListener(eventType, callback);
+  }
+}
